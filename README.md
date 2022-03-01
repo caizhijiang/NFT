@@ -4,7 +4,7 @@ A simple, fast and modern dApp for minting NFTs.
 
 Just set up some configurations and add your own **ABI**.
 
-The actual dApp is here: [Skulls In Love](https://www.skullsin.love/)
+The actual dApp is here: [chinanft](https://www.chinanft.club/)
 
 ## Usage
 
