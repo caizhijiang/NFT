@@ -99,11 +99,7 @@ export default function Minting() {
               <p className="text-xl">{`${process.env.NEXT_PUBLIC_DISPLAY_COST} ${process.env.NEXT_PUBLIC_CHAIN} per 1 NFT`}</p>
               <p>(excluding gas fees)</p>
             </div>
-            <div className="flex justify-center items-center space-x-4">
-              <IconContext.Provider value={{ size: '1.5em' }}>
 
-              </IconContext.Provider>
-            </div>
 
             <div className="flex justify-center">
               {!active || errMsg ? (
