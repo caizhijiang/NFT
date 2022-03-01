@@ -101,27 +101,7 @@ export default function Minting() {
             </div>
             <div className="flex justify-center items-center space-x-4">
               <IconContext.Provider value={{ size: '1.5em' }}>
-                <button
-                  type="button"
-                  className={
-                    mintAmount === 1 ? 'text-gray-500 cursor-default' : ''
-                  }
-                  onClick={decrementMintAmount}
-                  disabled={false}
-                >
-                  <FaMinusCircle />
-                </button>
-                <span className="text-xl">{mintAmount}</span>
-                <button
-                  type="button"
-                  className={
-                    mintAmount === 1 ? 'text-gray-500 cursor-default' : ''
-                  }
-                  onClick={incrementMintAmount}
-                  disabled={false}
-                >
-                  <FaPlusCircle />
-                </button>
+
               </IconContext.Provider>
             </div>
 
