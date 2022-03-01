@@ -115,7 +115,7 @@ export default function Minting() {
                 <button
                   type="button"
                   className={
-                    mintAmount === 10 ? 'text-gray-500 cursor-default' : ''
+                    mintAmount === 1 ? 'text-gray-500 cursor-default' : ''
                   }
                   onClick={incrementMintAmount}
                   disabled={false}
